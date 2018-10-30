@@ -1165,4 +1165,7 @@ footer button {
 	.section_6 {
 		padding-top: 10px;
 	}
+	.section_1 form {
+		width: 90%;	
+	}
 }
