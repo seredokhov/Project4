@@ -1,19 +1,3 @@
-$(function(){
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:20,
-        nav:true,
-        dots: false,
-        responsive:{
-            0:{
-                items:1
-            },
-            992:{
-                items:2
-            }
-        }
-    });
-});
 
 /*  Инициализация маски */
 $(function($){
