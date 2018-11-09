@@ -346,7 +346,7 @@ a.mobile_link {
 	color: #fff;
 	font-size: 24px;
 	line-height: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	text-align: center;
 }
 .section_1 form {
@@ -460,7 +460,7 @@ a.mobile_link {
 }
 .section_2 .title {
 	text-align: center;
-	margin-bottom: 170px;
+	margin-bottom: 80px;
 }
 .section_2 h2 {
 	color: #292b2f;
@@ -664,7 +664,7 @@ a.mobile_link {
 	font-size: 24px;
 	font-weight: 900;
 	color: #fff;
-	text-shadow: 0px 5px 0px rgba(0, 0, 0, 0.75);
+	/*text-shadow: 0px 5px 0px rgba(0, 0, 0, 0.75);*/
 	text-align: center;
 }
 
@@ -1165,5 +1165,8 @@ footer button {
 	}
 	.section_6 {
 		padding-top: 10px;
+	}
+	.section_1 form {
+		width: 90%;	
 	}
 }
