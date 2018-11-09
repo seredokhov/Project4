@@ -10,6 +10,7 @@ body{
 	line-height: 1.5;
 	color: #222;
 	background: url('../images/multiply_bg.jpg');
+	padding-top: 90px;
 }
 ul {
 	padding: 0;
@@ -111,6 +112,11 @@ h2,
 header {
 	min-height: 90px;
 	background: #fff;
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 header .flex-row {
 	align-items: center;
@@ -321,6 +327,7 @@ a.mobile_link {
 .mobile_contacts a.footer_mail::before {
     background: url(../images/footer_icons.png) no-repeat 5px -39px;
 }
+
 /* Секция 1 */
 
 .section_1 .flex_block {
@@ -861,12 +868,13 @@ a.mobile_link {
 	padding-bottom: 40px;
 }
 .section_5 .flex-row {
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	align-items: center;
 	justify-content: space-around;
 }
 .section_5 .item {
 	margin: 15px 0px;
+	padding: 0 15px;
 }
 .section_5 img {
 	display: block;
@@ -1066,6 +1074,9 @@ footer button {
 	line-height: 40px;
 }
 @media screen and (max-width: 991px) {
+	.section_5 .flex-row {
+		flex-wrap: wrap;
+	}
 	.section_1 h1 {
 		font-size: 36px;
 	}
@@ -1136,6 +1147,12 @@ footer button {
 	}
 	.section_4 .form_block .form_bg {
 		background: none;
+	}
+	body {
+		padding-top: 0;
+	}
+	header {
+		position: static;
 	}
 }
 @media screen and (max-width: 550px) {
